@@ -1,0 +1,22 @@
+{
+  "name": "cypress_dashboard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run:chrome": "cypress run --browser chrome",
+    "cy:run:firefox":"cypress run --browser firefox",
+    "cy:run:electorn":"cypress run --browser electron",
+    "cy:rundashboard":"cypress run --record --key 5f9cf0ee-e92d-4954-938e-27a0bbc6aed0"
+  },
+  "keywords": [
+    "Cypress"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^4.4.0",
+    "prettier": "^2.0.4"
+  }
+}
